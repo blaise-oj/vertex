@@ -1,0 +1,146 @@
+/* FOOTER BASE */
+.footer {
+  background: #ffffff;
+  color: #222;
+  border-top: 1px solid #eee;
+}
+
+/* CONTAINER */
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+/* HEADINGS */
+.footer-col h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #b8962e; /* gold */
+}
+
+.footer-col h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #b8962e;
+}
+
+/* TEXT */
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* LINKS */
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #444;
+  transition: 0.25s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #b8962e;
+  transform: translateX(5px);
+}
+
+/* SOCIAL ICONS */
+.footer-socials {
+  margin-top: 15px;
+  display: flex;
+  gap: 12px;
+}
+
+.footer-socials a {
+  background: #f1f3f5;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #b8962e;
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  background: #b8962e;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+/* CONTACT ICONS */
+.footer-col p svg {
+  margin-right: 8px;
+  color: #b8962e;
+}
+
+/* NEWSLETTER */
+.newsletter {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-right: none;
+  flex: 1;
+  border-radius: 4px 0 0 4px;
+}
+
+.newsletter button {
+  padding: 10px 15px;
+  background: #b8962e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  transition: 0.3s;
+}
+
+.newsletter button:hover {
+  background: #8c6d1f;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  font-size: 13px;
+  background: #fafafa;
+  color: #666;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .footer-container {
+    gap: 25px;
+    padding: 40px 20px;
+  }
+
+  .newsletter {
+    flex-direction: column;
+  }
+
+  .newsletter input {
+    border-radius: 4px;
+    border-right: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  .newsletter button {
+    border-radius: 4px;
+  }
+}
