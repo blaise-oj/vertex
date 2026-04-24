@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
 
-  const phone = "254716008031";
+  const phone = "254 113 410633";
 
   return (
     <footer className="footer">
@@ -77,7 +77,7 @@ const Footer = () => {
 
           <p>
             <FaPhone />
-            <a href="tel:+254716008031"> +254 716 008 031</a>
+            <a href="tel:+254 113 410633"> +254 113 410633</a>
           </p>
 
           <p>

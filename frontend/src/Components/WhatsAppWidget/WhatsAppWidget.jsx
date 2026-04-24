@@ -6,7 +6,7 @@ const WhatsAppWidget = () => {
 
   const [open, setOpen] = useState(false)
 
-  const phone = "254716008031"
+  const phone = "254 113 410633"
 
   const openWhatsApp = (message) => {
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
