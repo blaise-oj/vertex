@@ -6,7 +6,7 @@ const WhatsAppWidget = () => {
 
   const [open, setOpen] = useState(false)
 
-  const phone = "254 113 410633"
+  const phone = "254113410633"
 
   const openWhatsApp = (message) => {
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
@@ -34,19 +34,19 @@ const WhatsAppWidget = () => {
           {/* OPTIONS */}
           <div className="chat-options">
 
-            <div onClick={() => openWhatsApp("Hello (Glorioush Medical Supply), I have an enquiry")}>
+            <div onClick={() => openWhatsApp("Hello (Vertex Smelting Company), I have an enquiry")}>
               <strong>Other Enquiries</strong>
               <span>Other Enquiries</span>
             </div>
 
-            <div onClick={() => openWhatsApp("Hello (Glorioush Medical Supply), I'm interested in Dental Equipment")}>
-              <strong>Dental Equipment</strong>
-              <span>Dental Equipment</span>
+            <div onClick={() => openWhatsApp("Hello (Vertex Smelting Company), I'm interested in ")}>
+              <strong>General Support</strong>
+              <span>General Support</span>
             </div>
 
-            <div onClick={() => openWhatsApp("Hello (Glorioush Medical Supply), I'm interested in Medical Equipment")}>
-              <strong>Medical Equipment</strong>
-              <span>Medical Equipment</span>
+            <div onClick={() => openWhatsApp("Hello (Vertex Smelting Company), I'm interested in your refining services")}>
+              <strong>Refining Services</strong>
+              <span>Refining Services</span>
             </div>
 
           </div>
