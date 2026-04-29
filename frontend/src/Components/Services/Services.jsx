@@ -6,6 +6,10 @@ import hero1 from "../../assets/hero1.png";
 import hero2 from "../../assets/hero2.png";
 import hero3 from "../../assets/hero3.png";
 import hero4 from "../../assets/hero4.png";
+import ref3 from "../../assets/ref3.jpg";
+import ref5 from "../../assets/ref5.jpg";
+import news1 from "../../assets/news1.jpg";
+import ref10 from "../../assets/ref10.jpg";
 
 const Services = () => {
   return (
@@ -22,7 +26,7 @@ const Services = () => {
 
         {/* 1 */}
         <div className="service-card">
-          <img src={hero1} alt="Ore Testing" />
+          <img src={ref3} alt="Ore Testing" />
           <h3>Free Ore Testing</h3>
           <p>
             Advanced XRF technology for fast and accurate mineral analysis.
@@ -36,7 +40,7 @@ const Services = () => {
 
         {/* 2 */}
         <div className="service-card">
-          <img src={hero2} alt="Refinery" />
+          <img src={ref5} alt="Refinery" />
           <h3>Gold Assaying & Refining</h3>
           <p>
             Professional refining and verification for global market standards.
@@ -50,7 +54,7 @@ const Services = () => {
 
         {/* 3 */}
         <div className="service-card">
-          <img src={hero3} alt="Ethical Mining" />
+          <img src={news1} alt="Ethical Mining" />
           <h3>Ethical & Sustainable Mining</h3>
           <p>
             Supporting artisanal miners through our AgriMining program.
@@ -64,7 +68,7 @@ const Services = () => {
 
         {/* 4 */}
         <div className="service-card highlight">
-          <img src={hero4} alt="Technology" />
+          <img src={ref10} alt="Technology" />
           <h3>Advanced Exploration Technology</h3>
           <p>
             Satellite imaging and nano-mapping for precise gold detection.

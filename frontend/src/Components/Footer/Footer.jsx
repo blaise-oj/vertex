@@ -5,6 +5,7 @@ import {
   FaFacebookF,
   FaInstagram,
   FaWhatsapp,
+  FaTwitter,
   FaMapMarkerAlt,
   FaEnvelope,
   FaPhone
@@ -30,8 +31,9 @@ const Footer = () => {
 
           {/* SOCIALS */}
           <div className="footer-socials">
-            <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-            <a href="#" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://www.facebook.com/share/1BvFf8j5qB/" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/vertexsmelting" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://www.x.com/vertexsmelting" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
 
             <a
               href={`https://wa.me/${phone}?text=Hello%20Vertex%20Smelting,%20I%20would%20like%20to%20enquire`}

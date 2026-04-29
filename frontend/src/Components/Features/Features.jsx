@@ -5,6 +5,9 @@ import "./Features.css";
 import hero1 from "../../assets/hero1.png";
 import hero2 from "../../assets/hero2.png";
 import hero3 from "../../assets/hero3.png";
+import ref6 from "../../assets/ref6.jpg";
+import ref8 from "../../assets/ref8.jpg";
+import ref9 from "../../assets/ref9.jpg";
 
 const Features = () => {
   return (
@@ -45,7 +48,7 @@ const Features = () => {
         <div className="features-cards">
 
           <div className="feature-card">
-            <img src={hero1} alt="Consultancy" />
+            <img src={ref8} alt="Consultancy" />
             <h4>Consultancy</h4>
             <p>
               Navigate complex gold transactions with clarity, compliance,
@@ -54,7 +57,7 @@ const Features = () => {
           </div>
 
           <div className="feature-card">
-            <img src={hero2} alt="Logistics" />
+            <img src={ref6} alt="Logistics" />
             <h4>Secure Logistics</h4>
             <p>
               Licensed bonded warehousing with secure handling and
@@ -63,7 +66,7 @@ const Features = () => {
           </div>
 
           <div className="feature-card highlight">
-            <img src={hero3} alt="Global Network" />
+            <img src={ref9} alt="Global Network" />
             <h4>Global Reach</h4>
             <p>
               Serving investors, banks, and industries worldwide with trusted supply chains.
