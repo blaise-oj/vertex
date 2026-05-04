@@ -84,8 +84,8 @@ const Footer = () => {
 
           <p>
             <FaEnvelope />
-            <a href="mailto:info@vertexsmelting.com">
-              info@vertexsmelting.com
+            <a href="mailto:info@vertexsmelting.co.ke">
+              info@vertexsmelting.co.ke
             </a>
           </p>
         </div>
