@@ -71,7 +71,7 @@ const Footer = () => {
 
         {/* CONTACT */}
         <div className="footer-col">
-          <h4>Contact</h4>
+          <h4>Contact & Address</h4>
 
           <p>
             <FaMapMarkerAlt />
