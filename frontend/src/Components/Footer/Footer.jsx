@@ -74,7 +74,15 @@ const Footer = () => {
           <h4>Contact</h4>
 
           <p>
-            <FaMapMarkerAlt /> Nairobi, Kenya
+            <FaMapMarkerAlt />
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Lusaka+Road+504+PGH+Nairobi+Kenya"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-location-link"
+            >
+              <span>Lusaka Road 504, PGH, Nairobi, Kenya</span>
+            </a>
           </p>
 
           <p>
